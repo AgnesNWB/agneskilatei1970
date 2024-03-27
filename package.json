@@ -1,0 +1,40 @@
+{
+  "name": "electionnotification",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.9",
+    "@heroicons/react": "^2.1.1",
+    "@novu/node": "^0.22.0",
+    "africastalking": "^0.6.6",
+    "busboy": "^1.6.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.1",
+    "mongoose": "^8.1.1",
+    "next": "14.1.0",
+    "node-cron": "^3.0.3",
+    "papaparse": "^5.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/node-cron": "^3.0.11",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
